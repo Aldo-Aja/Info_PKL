@@ -1,16 +1,32 @@
-# infopkl
+## Installation
 
-A new Flutter project.
+- Clone the repo and `cd` into it
+- Run `composer install`
+- Rename or copy `.env.example` file to `.env`
+- Run `php artisan key:generate`
+- Set your database credentials in your `.env` file
+- Run migration `php artisan migrate`
+- Make something awesome!
 
-## Getting Started
+## Todo Lists
 
-This project is a starting point for a Flutter application.
+- LaravelEasyNav implementation
+- Preview screenshots
+- More pages...
 
-A few resources to get you started if this is your first Flutter project:
+## Note
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Recommend to install this preset on a project that you are starting from scratch, otherwise your project's design might break.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Credits
+
+Laravel AdminLTE 3 uses some open-source third-party libraries/packages, many thanks to the web community.
+
+- Laravel - Open source framework.
+- AdminLTE 3 - Thanks to ColorlibHQ
+
+## Preview
+
+## License
+
+Licensed under the MIT license.
